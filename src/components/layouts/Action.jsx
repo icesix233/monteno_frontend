@@ -1,5 +1,4 @@
 import React , { useState } from 'react';
-import { Link } from 'react-router-dom'
 
 const Action = () => {
 
@@ -20,7 +19,9 @@ const Action = () => {
                                 <h3 className="mb-13">{data.title}</h3>
                                 <p className="fs-21 mb-7">{data.desc}</p>
                             </div>
-                            <Link to="/" className="btn-action style-2">Buy Now</Link>
+                            <a href="https://pancakeswap.finance/" target="_blank" rel="noopener noreferrer" className="btn-action style-2">
+                            Buy Now
+                            </a>
                         </div>
                     </div>
                 </div>

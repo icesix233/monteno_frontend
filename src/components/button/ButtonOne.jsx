@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './button.scss';
 
 const ButtonOne = () => {
   return (
-        <Link to='/' className="btn-action">
+        <a href="https://pancakeswap.finance/" target="_blank" rel="noopener noreferrer" className="btn-action">
             Buy Now
-        </Link>
+        </a>
   );
 }
 

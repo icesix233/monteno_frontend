@@ -1,5 +1,4 @@
 import React , { useState } from 'react';
-import { Link } from 'react-router-dom'
 import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import item from '../../assets/fake-data/item';
@@ -21,7 +20,9 @@ const SliderOne = () => {
                             <h6 className="sub-title mb-6" data-aos="fade-up">{datatext.subtitle}</h6>
                             <h2 className="title mb-26" data-aos="fade-up">{datatext.title}</h2>
                             <p className="desc mb-43" data-aos="fade-up">{datatext.desc}</p>
-                            <Link to="/" className="btn-action style-2" data-aos="fade-up" data-aos-duration="1200" >Buy Qatarlaeeb</Link>
+                            <a href="https://pancakeswap.finance/" target="_blank" rel="noopener noreferrer" className="btn-action style-2" data-aos="fade-up" data-aos-duration="1200">
+                                Buy Qatarlaeeb
+                            </a>
                         </div>
                     </div>
                     <div className="col-xl-7 col-md-6 col-12">
