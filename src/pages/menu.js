@@ -7,17 +7,17 @@ const menus = [
     {
         id: 2,
         name: 'Twitter',
-        links: 'https://twitter.com/'
+        links: 'https://twitter.com/QatarlaeebToken'
     },
     {
         id: 3,
         name: 'Telegram',
-        links: 'https://twitter.com/'
+        links: 'https://t.me/Qatarlaeeb'
     },
     {
         id: 4,
         name: 'Discord',
-        links: 'https://twitter.com/'
+        links: 'https://discord.com/'
     }
     
 ]
