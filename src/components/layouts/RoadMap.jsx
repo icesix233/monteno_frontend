@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 
 const RoadMap = (props) => {
 
@@ -13,7 +12,7 @@ const RoadMap = (props) => {
                         <div className="block-text center">
                             <h1 className="heading-bg" data-aos="fade-in" data-aos-duration="1000"><span>Road Map</span></h1>
                             <h5 className="sub-title mb-10" data-aos="fade-up" data-aos-duration="1000">Road Map</h5>
-                            <h3 className="title mb-28" data-aos="fade-up" data-aos-duration="1000">The Journey of <br /> Monteno NFT</h3>
+                            <h3 className="title mb-28" data-aos="fade-up" data-aos-duration="1000">The Journey of <br /> Qatarlaeeb Token</h3>
                         </div>
                     </div>
                 </div>
@@ -32,9 +31,6 @@ const RoadMap = (props) => {
                                     </div>
                                 ))
                             }
-                        </div>
-                        <div className="view-all center" data-aos="fade-up">
-                            <Link to="/road-map" className="btn-action style-2">View Full</Link>
                         </div>
                     </div>
                 </div>

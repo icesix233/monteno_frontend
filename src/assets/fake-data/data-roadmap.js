@@ -1,26 +1,26 @@
 const dataRoadMap = [
     {
-        time: 'February 01, 2022',
-        title: 'Idea Generation',
-        desc: 'Oficia dese runt mollit anim id est labo met conse ctetur adipi smod tempor inc ididunt ut labore et dolore quis',
+        time: 'July 10, 2022',
+        title: 'Initial Release',
+        desc: 'Qatarlaeeb Website building, white paper writing, community creation, marketing campaign launching',
         class: 'left'
     },
     {
-        time: 'March 30, 2022',
-        title: 'Design & Development',
-        desc: 'Oficia dese runt mollit anim id est labo met conse ctetur adipi smod tempor inc ididunt ut labore et dolore quis',
+        time: 'August 20, 2022',
+        title: 'Ecosystem Development',
+        desc: 'Laeeb NFT development, Qatarlaeeb Swap development, overseas community cooperation, advertising cooperation, the launch of incentive activities',
         class: 'right mt-223'
     },
     {
-        time: 'April 20, 2022',
-        title: 'Initial Release',
-        desc: 'Oficia dese runt mollit anim id est labo met conse ctetur adipi smod tempor inc ididunt ut labore et dolore quis',
+        time: 'October 20, 2022',
+        title: 'Ecosystem Release',
+        desc: 'Laeeb NFT release, Qatarlaeeb Swap release, Laeeb Gamefi development, Qatarlaeeb aggregator development',
         class: 'left mt--23'
     },
     {
-        time: 'May 30, 2022',
-        title: 'Result & Final Report',
-        desc: 'Oficia dese runt mollit anim id est labo met conse ctetur adipi smod tempor inc ididunt ut labore et dolore quis',
+        time: 'December 30, 2022',
+        title: 'Final Release',
+        desc: 'Pledge Exchange release, Qatarlaeeb aggregator release, Cooperation with other memecoins, advancing the Aggregator Ecosystem',
         class: 'right mt-200'
     },
 ]

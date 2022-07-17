@@ -1,5 +1,4 @@
 import { React , useState } from 'react';
-import { Link } from 'react-router-dom'
 
 import item from '../../assets/fake-data/item';
 
@@ -7,10 +6,10 @@ const About = () => {
 
     const [data] = useState(
         {
-            subtitle: 'About Us',
-            title: 'Hight Quality NFT  Collections',
-            desc1: 'Sed ut perspiciatis unde omnis iste natus enim ad minim veniam, quis nostrud exercit',
-            desc2: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat',
+            subtitle: 'About Qatarlaeeb',
+            title: 'World Cup Qatar 2022 Mascot',
+            desc1: '"La’eeb is a fun and mischievous character who comes from the mascot-verse, a parallel world where all tournament mascots live,"',
+            desc2: 'For a mascot meant to be figment of someone\'s imagination, there are many adjectives used to describe the mascot, including courageous, uplifting, fun, playful, mischievous, youthful, and an adventurous spirit.',
         }
     )
 
@@ -35,7 +34,9 @@ const About = () => {
                             <h3 className="title mb-58" data-aos="fade-up" data-aos-duration="1000">{data.title}</h3>
                             <p className="fs-21 mb-33" data-aos="fade-up" data-aos-duration="1000">{data.desc1}</p>
                             <p className="fs-18 line-h17 mb-41" data-aos="fade-up" data-aos-duration="1000">{data.desc2}</p>
-                            <Link to="/about" className="btn-action style-2"  data-aos="fade-up" data-aos-duration="1200">More About Us</Link>
+                            <a href="https://www.sportingnews.com/uk/soccer/news/world-cup-2022-mascot-qatar-laeeb-explain-name-meaning-story/ojkmuozds4e8vkjyitzif3cz" target="_blank" rel="noopener noreferrer" className="btn-action style-2"  data-aos="fade-up" data-aos-duration="1200">
+                                More About Laeeb
+                            </a>
                         </div>
                     </div>
                 </div>

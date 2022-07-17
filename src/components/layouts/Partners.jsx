@@ -23,7 +23,7 @@ const Partners = (props) => {
                             {
                                 data.map((data,index) => (
                                     <div key={index} className={`box-partner border-r ${data.border}`}>
-                                        <Link to="#"><img src={data.img} alt="Monteno" /></Link>
+                                        <Link to="#"><img src={data.img} alt="Monteno" width={data.width} height={data.height}/></Link>
                                     </div>
                                 ))
                             }
