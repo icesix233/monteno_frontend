@@ -22,6 +22,7 @@ const FAQ = (props) => {
                         <div className="flat-accordion" data-aos="fade-up">
                             {
                                 data.map((data,index) => (
+                                    index>1 ? <></> :
                                     <Accordion className="h5 toggle-title" key={index} title={data.title} show={data.show}>
                                             <p className="fs-18">{data.text}</p>
                                         </Accordion>
@@ -33,6 +34,7 @@ const FAQ = (props) => {
                         <div className="flat-accordion" data-aos="fade-up">
                             {
                                 data.map((data,index) => (
+                                    index<2 ? <></> :
                                     <Accordion className="h5 toggle-title" key={index} title={data.title} >
                                             <p className="fs-18">{data.text}</p>
                                         </Accordion>

@@ -36,7 +36,6 @@ const Testimonial = (props) => {
                                                     <p className="text">{data.text}</p>
 
                                                     <div className="info">
-                                                        <img src={data.avt} alt="Monteno" />
                                                         <h6>{data.name}</h6>
                                                         <p className="fs-16">{data.postion}</p>
                                                     </div>
